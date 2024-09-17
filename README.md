@@ -37,8 +37,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://https://www.frontendmentor.io/solutions/social-links-profile-hK-dKT-dHc)
-- Live Site URL: [Add live site URL here](https://https://k1llac0de.github.io/social-links-profile)
+- Solution URL: [Solution](https://https://www.frontendmentor.io/solutions/social-links-profile-hK-dKT-dHc)
+- Live Site URL: [Live Site](https://https://k1llac0de.github.io/social-links-profile)
 
 ## My process
 
