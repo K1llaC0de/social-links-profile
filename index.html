@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Social links profile</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+    <title>Frontend Mentor | Social links profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap" rel="stylesheet" />
+    <!-- Asegúrate de que las rutas a los archivos CSS sean correctas -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./tablet.css" media="screen and (min-width: 375px)" />
+    <link rel="stylesheet" href="./desktop.css" media="screen and (min-width: 1440px)" />
 </head>
 <body>
-
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <main class="contenedor-principal">
+        <div class="contenedor-secundario">
+            <div class="contenedor">
+                <img class="img" src="./assets/images/avatar-jessica.jpeg" alt="Imagen de perfil" />
+                <h1 class="titulo">Jessica Randall</h1>
+                <h2 class="subtitulo">London, United Kingdom</h2>
+                <p class="parrafo">"Front-end developer and avid reader."</p>
+                <div class="social-links">
+                    <button class="social-link">GitHub</button>
+                    <button class="social-link">Frontend Mentor</button>
+                    <button class="social-link">LinkedIn</button>
+                    <button class="social-link">Twitter</button>
+                    <button class="social-link">Instagram</button>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

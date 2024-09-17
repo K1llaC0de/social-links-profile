@@ -1,0 +1,98 @@
+/* Archivo: style.css */
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap');
+
+/* Variables de colores */
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    background-color: var(--grey-900);
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    color: var(--white);
+}
+
+/* Estilos del contenedor principal */
+main {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: var(--grey-800);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Imagen de perfil */
+.img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+/* Título y subtítulo */
+.titulo {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.subtitulo {
+    text-align: center;
+    color: var(--green);
+    margin-bottom: 16px;
+}
+
+/* Descripción */
+.parrafo {
+    text-align: center;
+    margin-bottom: 24px;
+    font-style: italic;
+}
+
+/* Estilos de enlaces sociales */
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-link {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    color: var(--white);
+    background-color: var(--grey-700);
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.social-link:hover {
+    background-color: var(--green);
+    color: var(--grey-900);
+}
+
+/* Media Queries */
+@media (max-width: 425px) {
+    main {
+        margin: 20px;
+    }
+
+    .social-link {
+        font-size: 0.9em;
+    }
+}
